@@ -1,0 +1,41 @@
+---
+title: Thibault Flowchart - Chapter 8
+config:
+  layout: dagre
+  flowchart:
+    htmlLabels: false
+---
+flowchart LR
+	%% Nodes
+	T08_C01["Circle 1"]
+	T08_C02["Circle 2"]
+	T08_C03["Circle 3"]
+	T08_C04["Circle 4"]
+	T08_C05["Circle 5"]
+	T08_C06["Circle 6"]
+	T08_C07["Circle 7"]
+	T08_C08["Circle 8"]
+	T08_C09["Circle 9"]
+	T08_C10["Circle 10"]
+	T08_C11["Circle 11"]
+	T08_C12["Circle 12"]
+	T08_C13["Circle 13"]
+
+	%% Edges
+    
+    %% External Edges
+    T07_C01 --> T08_C01
+    T08_C01 --> T06_C06
+
+	T08_C01 --> T08_C02
+	T08_C01 --> T08_C03
+	T08_C01 --> T08_C04
+	T08_C01 --> T08_C05
+	T08_C05 --> T08_C06
+	T08_C01 --> T08_C07
+	T08_C07 --> T08_C08
+	T08_C08 --> T08_C09
+	T08_C01 --> T08_C10
+	T08_C10 --> T08_C11
+	T08_C11 --> T08_C12
+	T08_C12 --> T08_C13
