@@ -16,17 +16,26 @@ The plan for this project is:
 3. Combine the chapters into one flowchart and merge overlapping parts of plays across chapters that are repeated moves.
 4. add the ability to focus any play and related decisions.
 
- 
-# How to Edit a flowchart
+# Contributing
 
-## GUI editing and live text preview
+## Guidelines
+
+When contributing to this project please follow these guidelines: 
+* Content/code:
+  * commit messages use the [Conventional Commit] (https://www.conventionalcommits.org/en/v1.0.0/) format. 
+* Fact checking: 
+  * provide a reference to the flowchart and nodes with an error, as well as a reference to the relevant sections of the book. Book references should be in the form: book#-tabula# or chapter#; section name such as - introduction, circle#, figure#, or conclusion; and paragraph#.
+ 
+## How to Edit a flowchart
+
+### GUI editing and live text preview
 
 * open a browser to one of the GUI editors (eg. https://www.mermaidflow.app/editor )
 * Copy/paste the text of an `.mmd` mermaid file into the text area
 * Edit the flowchart
 * Copy/paste the text from the text area into an `.mmd` mermaid file
 
-## Quick edit links
+### Quick edit links
 
 These are quick links to the https://mermaid.live/ site with the given chapter flowchart loaded. For GUI editing click the "Playground" toggle. Once you are done editing, you'll need to copy the mermaid text from the editor and paste it into the `flowchart-per-chapter/chapter-??.mmd` file in github and commit it.
 
