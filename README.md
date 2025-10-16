@@ -22,7 +22,9 @@ The plan for this project is:
 
 When contributing to this project please follow these guidelines: 
 * Content/code:
-  * commit messages use the [Conventional Commit] (https://www.conventionalcommits.org/en/v1.0.0/) format. 
+  * commit messages use the [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) format.
+  * the naming convention used for chapters in the book is: `Book # Tabula #` to match the the naming used by Thibault.
+  * the naming convention used for node ids in the flowchart that represent a circle in the book is: `B#_T#_C#` This naming convention allows circles to reference any other circle in the book. 
 * Fact checking: 
   * provide a reference to the flowchart and nodes with an error, as well as a reference to the relevant sections of the book. Book references should be in the form: book#-tabula# or chapter#; section name such as - introduction, circle#, figure#, or conclusion; and paragraph#.
  
