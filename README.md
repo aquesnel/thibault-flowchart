@@ -1,6 +1,20 @@
 # thibault-flowchart
+
 This project is a flowchart of all the fencing plays in the book "Academie de l'espee" by Girard Thibault from 1628.
 
+# Goal
+
+The goal of this project is to have a flowchart that:
+* shows the sequence of circles for each play in the book. 
+* highlights the decisions points and choices that Thibault makes for in each play in the book.
+
+# Plan
+
+The plan for this project is: 
+1. create 1 flowchart for each chapter exactly following the circles in the book and just create the graph of nodes with just the circle number in the node. Do this for all chapters, and one file per chapter. 
+2. For each chapter add nodes for the decision points and options that Thibault calls out in the text. Fill in those questions and the options so the graph is a self sufficient flowchart.
+3. Combine the chapters into one flowchart and merge overlapping parts of plays across chapters that are repeated moves.
+4. add the ability to focus any play and related decisions.
 
  
 # How to Edit a flowchart
@@ -48,3 +62,4 @@ Mermaid GUI Editor
 * https://mermaidviewer.com/editor
   * Pro:
   * Cons:
+
