@@ -53,6 +53,75 @@ These are quick links to the https://mermaid.live/ site with the given chapter f
   * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-09.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-09.mmd)
 * chapter-10.mmd
   * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-10.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-10.mmd)
+* chapter-11.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-11.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-11.mmd)
+* chapter-12.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-12.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-12.mmd)
+* chapter-13.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-13.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-13.mmd)
+* chapter-14.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-14.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-14.mmd)
+* chapter-15.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-15.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-15.mmd)
+* chapter-16.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-16.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-16.mmd)
+* chapter-17.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-17.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-17.mmd)
+* chapter-18.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-18.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-18.mmd)
+* chapter-19.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-19.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-19.mmd)
+* chapter-20.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-20.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-20.mmd)
+* chapter-21.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-21.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-21.mmd)
+* chapter-22.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-22.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-22.mmd)
+* chapter-23.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-23.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-23.mmd)
+* chapter-24.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-24.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-24.mmd)
+* chapter-25.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-25.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-25.mmd)
+* chapter-26.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-26.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-26.mmd)
+* chapter-27.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-27.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-27.mmd)
+* chapter-28.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-28.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-28.mmd)
+* chapter-29.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-29.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-29.mmd)
+* chapter-30.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-30.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-30.mmd)
+* chapter-31.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-31.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-31.mmd)
+* chapter-32.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-32.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-32.mmd)
+* chapter-33.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-33.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-33.mmd)
+* chapter-34.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-34.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-34.mmd)
+* chapter-35.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-35.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-35.mmd)
+* chapter-36.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-36.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-36.mmd)
+* chapter-37.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-37.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-37.mmd)
+* chapter-38.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-38.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-38.mmd)
+* chapter-39.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-39.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-39.mmd)
+* chapter-40.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-40.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-40.mmd)
+* chapter-41.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-41.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-41.mmd)
+* chapter-42.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-42.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-42.mmd)
+* chapter-43.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-43.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-43.mmd)
+* chapter-44.mmd
+  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-44.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-44.mmd)
+
 
 # Resources
 
