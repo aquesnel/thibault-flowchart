@@ -119,8 +119,6 @@ These are quick links to the https://mermaid.live/ site with the given chapter f
   * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-42.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-42.mmd)
 * chapter-43.mmd
   * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-43.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-43.mmd)
-* chapter-44.mmd
-  * [Edit in Mermaid live](https://mermaid.live/edit?code=https://raw.githubusercontent.com/aquesnel/thibault-flowchart/refs/heads/main/flowchart-per-chapter/chapter-44.mmd) | [Save in github](https://github.com/aquesnel/thibault-flowchart/edit/main/flowchart-per-chapter/chapter-44.mmd)
 
 
 # Resources
