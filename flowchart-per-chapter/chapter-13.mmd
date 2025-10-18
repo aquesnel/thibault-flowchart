@@ -8,3 +8,104 @@ config:
 flowchart LR
 	%% Nodes
 	B1_T13_C01["Circle 1"]
+    B1_T13_C01_swapAZ["Circle 1
+    Swap Alexander
+    and Zachary"]
+	B1_T13_C02["Circle 2"]
+    B1_T13_C02_inter@{ shape: "lean-r", label: "Circle 2
+    Interrupted"}
+    B1_T13_C02_2nd["Circle 2
+    from 2nd Instance"]
+    B1_T13_C02_2nd_inter@{ shape: "lean-r", label: "Circle 2
+    from 2nd Instance
+    Interrupted" }
+    B1_T13_C02_swapAZ_inter@{ shape: "lean-r", label: "Circle 2
+    Swap Alexander
+    and Zachary" }
+    B1_T13_C02_swapAZ_2nd_inter@{ shape: "lean-r", label: "Circle 2
+    Swap Alexander
+    and Zachary
+    from 2nd Instance
+    Interrupted" }
+	B1_T13_C03["Circle 3"]
+    B1_T13_C03_2nd["Circle 3
+    from 2nd Instance"]
+	B1_T13_C04["Circle 4"]
+    B1_T13_C04_2nd["Circle 4
+    from 2nd Instance"]
+	B1_T13_C05["Circle 5"]
+    B1_T13_C05_1["Circle 5.1"]
+	B1_T13_C06["Circle 6"]
+	B1_T13_C06_swapAZ_inter@{ shape: "lean-r", label: "Circle 6
+    Swap Alexander
+    and Zachary
+    Interrupted"}
+	B1_T13_C07["Circle 7"]
+	B1_T13_C08["Circle 8"]
+	B1_T13_C09["Circle 9"]
+	B1_T13_C10["Circle 10"]
+	B1_T13_C11["Circle 11"]
+	B1_T13_C12["Circle 12"]
+	B1_T13_C13["Circle 13"]
+	B1_T13_C14["Circle 14"]
+	B1_T13_C15["Circle 15"]
+
+    B1_T13_Alex_1st@{ shape: "stadium", label: "Alexander at 
+    1st Instance" }
+    B1_T13_Alex_2nd@{ shape: "stadium", label: "Alexander at 
+    2nd Instance" }
+
+    B1_T13_Zach_1st@{ shape: "stadium", label: "Zachary at 
+    1st Instance" }
+    B1_T13_Zach_2nd@{ shape: "stadium", label: "Zachary at 
+    2nd Instance" }
+
+	
+	style B1_T13_C01_swapAZ fill:#7ED957
+	style B1_T13_C02_2nd fill:#CB6CE6
+	style B1_T13_C02_2nd_inter fill:#CB6CE6
+	style B1_T13_C02_swapAZ_inter fill:#7ED957
+	style B1_T13_C02_swapAZ_2nd_inter fill:#C1FF72
+	style B1_T13_C03_2nd fill:#CB6CE6
+	style B1_T13_C04_2nd fill:#CB6CE6
+	style B1_T13_C06_swapAZ_inter fill:#7ED957
+    style B1_T13_Alex_2nd fill:#CB6CE6
+	style B1_T13_Zach_1st fill:#7ED957
+    style B1_T13_Zach_2nd fill:#C1FF72
+	
+    %% Edges
+	B1_T13_C01 --> B1_T13_Alex_1st
+	B1_T13_Alex_1st -->|"C2"| B1_T13_C02
+	B1_T13_C02 --> B1_T13_C03
+	B1_T13_C03 --> B1_T13_C04
+	
+	B1_T13_Alex_1st -->|"C15 P2 "| B1_T13_C02_inter
+	B1_T13_C02_inter --> B1_T13_C06_swapAZ_inter
+    
+    B1_T13_C05 --> B1_T13_Alex_2nd
+    B1_T13_Alex_2nd -->|"C13 P2"| B1_T13_C02_2nd_inter
+	B1_T13_C02_2nd_inter --> B1_T13_C06_swapAZ_inter
+	B1_T13_C06_swapAZ_inter --> B1_T13_C14
+	B1_T13_C14 --> B1_T13_C15
+	
+    B1_T13_Alex_2nd -->|"C5 P1"| B1_T13_C02_2nd
+	B1_T13_C02_2nd --> B1_T13_C03_2nd
+	B1_T13_C03_2nd --> B1_T13_C04_2nd
+	
+    B1_T13_C05 --> B1_T13_C05_1
+	
+	B1_T13_C01_swapAZ -->|"C5 P2"| B1_T13_Zach_1st
+	B1_T13_Zach_1st --> B1_T13_C02_swapAZ_inter
+	B1_T13_C02_swapAZ_inter --> B1_T13_C06
+	B1_T13_C06 --> B1_T13_C07
+	B1_T13_C06 --> B1_T13_C08
+	B1_T13_C08 --> B1_T13_C09
+	B1_T13_C06 --> B1_T13_C11
+	B1_T13_C06 --> B1_T13_C12
+	B1_T13_C12 --> B1_T13_C13
+	
+	B1_T13_C01_swapAZ -->|"C5 P3"| B1_T13_Zach_2nd
+	B1_T13_Zach_2nd --> B1_T13_C02_swapAZ_2nd_inter
+	B1_T13_C02_swapAZ_2nd_inter --> B1_T13_C06
+	B1_T13_C02_swapAZ_2nd_inter -->|"C10"| B1_T13_C10
+    
