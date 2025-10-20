@@ -104,3 +104,18 @@ Mermaid GUI Editor
   * Pro:
   * Cons:
 
+## References
+
+Interactive diagrams:
+
+* Marmaid JS events:
+  * https://mermaid.js.org/syntax/flowchart.html#interaction
+  * https://mermaid.js.org/config/usage.html#binding-events
+* Marmaid Chart docs: https://docs.mermaidchart.com/mermaid-oss/syntax/flowchart.html#interaction
+* making SVG images clickable: https://www.freecodecamp.org/news/how-to-make-clickable-svg-map-html-css/ 
+
+Mermaid.live URL embeded graph using base64 or "pako" encoding:
+
+* https://github.com/mermaid-js/mermaid-live-editor/discussions/1291#discussioncomment-6837936
+* Note: base64 encoding is also supported, as long as the graph is wrapped in the following json: `{"code": "<MERMAID_GRAPH_TEXT>" }`
+  * ex: https://mermaid.live/view#base64:eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5FTkRfRVhFQ1VURUQoKGVuZCkpXG5QUk9DRVNTX1NUQVJUKChzdGFydCkpXG5QUk9DRVNTX1NUQVJUIC0tPiBFTkRfRVhFQ1VURUQifQ
