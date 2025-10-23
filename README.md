@@ -2,6 +2,8 @@
 
 This project is a flowchart of all the fencing plays in the book "Academie de l'espee" by Girard Thibault from 1628.
 
+License: [![CC BY-NC 4.0](http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 # Goal
 
 The goal of this project is to have a flowchart that:
@@ -119,3 +121,10 @@ Mermaid.live URL embeded graph using base64 or "pako" encoding:
 * https://github.com/mermaid-js/mermaid-live-editor/discussions/1291#discussioncomment-6837936
 * Note: base64 encoding is also supported, as long as the graph is wrapped in the following json: `{"code": "<MERMAID_GRAPH_TEXT>" }`
   * ex: https://mermaid.live/view#base64:eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5FTkRfRVhFQ1VURUQoKGVuZCkpXG5QUk9DRVNTX1NUQVJUKChzdGFydCkpXG5QUk9DRVNTX1NUQVJUIC0tPiBFTkRfRVhFQ1VURUQifQ
+
+# License
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+[![CC BY-NC 4.0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
