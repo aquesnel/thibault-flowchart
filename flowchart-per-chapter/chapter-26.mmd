@@ -1,10 +1,15 @@
 ---
-title: Thibault Flowchart - Chapter 26
 config:
   layout: dagre
   flowchart:
     htmlLabels: false
+title: Thibault Flowchart - Chapter 26
 ---
 flowchart LR
-	%% Nodes
-	B1_T26_C01["Circle 1"]
+    B1_T22_C01["Circle 1"] --> B1_T22_C02["Circle 2"] & B1_T22_C03["Circle 3"] & B1_T22_C05["Circle 5"]
+    B1_T22_C05 --> B1_T22_C07["Circle 7"]
+    B1_T22_C08["Circle 8"] --> B1_T22_C09["Circle 9"] & B1_T22_C10["Circle 10"]
+    B1_T22_C10 --> B1_T22_C11["Circle 11"]
+    B1_T22_C12["Circle 12"] --> B1_T22_C13["Circle 13"]
+    B1_T22_C03 --> B1_T22_C04["Circle 4"]
+    B1_T22_C01 --> B1_T22_C06["Circle 6"]
