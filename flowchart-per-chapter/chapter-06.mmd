@@ -11,6 +11,11 @@ flowchart LR
 	B1_T06_C02["Circle 2"]
 	B1_T06_C03["Circle 3"]
 	B1_T06_C04["Circle 4"]
+    B1_T06_C04_inter@{ 
+        shape: "lean-r"
+        label: "Circle 4
+                Interrupted"
+    }
 	B1_T06_C05["Circle 5"]
 	B1_T06_C06["Circle 6"]
 	B1_T06_C07["Circle 7"]
@@ -27,7 +32,8 @@ flowchart LR
 	B1_T06_C03 --> B1_T06_C04
 	B1_T06_C04 --> B1_T06_C05
 	B1_T06_C05 --> B1_T06_C06
-	B1_T06_C06 --> B1_T06_C07
+	B1_T06_C03 --> B1_T06_C04_inter
+	B1_T06_C04_inter --> B1_T06_C07
 	B1_T06_C03 --> B1_T06_C08
 	B1_T06_C03 --> B1_T06_C09
 	B1_T06_C08 --> B1_T06_C10
