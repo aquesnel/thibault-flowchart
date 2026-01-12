@@ -10,10 +10,12 @@
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    sodipodi:docname="thibault-circle-with-feet-and-swords-interactive.svg"
    xml:space="preserve"
+   onload="init(evt)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg"><style
+     id="style254"></style><sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
@@ -25,15 +27,20 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.0167041"
-     inkscape:cx="267.03935"
+     inkscape:cx="187.86194"
      inkscape:cy="341.79069"
      inkscape:window-width="1920"
-     inkscape:window-height="1009"
+     inkscape:window-height="1057"
      inkscape:window-x="-8"
-     inkscape:window-y="1072"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g126" /><defs
+     inkscape:current-layer="layer6" /><defs
      id="defs1"><rect
+       x="19.273525"
+       y="625.7382"
+       width="260.79725"
+       height="28.51683"
+       id="rect254" /><rect
        x="490.80161"
        y="606.86291"
        width="37.375674"
@@ -2607,14 +2614,14 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Layer - Buttons"
-     inkscape:highlight-color="#7848eb"
-     sodipodi:insensitive="true"><g
+     inkscape:highlight-color="#7848eb"><g
        id="g173"
        inkscape:label="Button - Next"
        transform="translate(-39.724261,-34.237472)"
        onclick="var parent = document.getElementById('Layer_Plays');&#10;var children = Array.from(parent.children).filter(c =&gt; c.tagName === 'g');&#10;var currentIndex = children.findIndex(c =&gt; c.style.display !== 'none');&#10;&#10;// Hide current&#10;if (currentIndex !== -1) {&#10;    children[currentIndex].style.display = 'none';&#10;}&#10;&#10;// Calculate next (loop back to 0 if at the end)&#10;var nextIndex = (currentIndex - 1 + children.length) % children.length;&#10;&#10;// Show next&#10;children[nextIndex].style.display = 'inline';"
        onmouseover="this.style.cursor='pointer';"
-       onmouseout="this.style.cursor='default';"><rect
+       onmouseout="this.style.cursor='default';"
+       sodipodi:insensitive="true"><rect
          style="fill:#f9f9f9;fill-opacity:0.75;stroke:#000000;stroke-width:0.599197;stroke-linecap:round;stroke-dasharray:none"
          id="rect150"
          width="21.610001"
@@ -2641,7 +2648,8 @@
        transform="translate(-68.903958,-19.478971)"
        onclick="var parent = document.getElementById('Layer_Plays');&#10;var children = Array.from(parent.children).filter(c =&gt; c.tagName === 'g');&#10;var currentIndex = children.findIndex(c =&gt; c.style.display !== 'none');&#10;&#10;// Hide current&#10;if (currentIndex !== -1) {&#10;    children[currentIndex].style.display = 'none';&#10;}&#10;&#10;// Calculate next (loop back to 0 if at the end)&#10;var nextIndex = (currentIndex + 1) % children.length;&#10;&#10;// Show next&#10;children[nextIndex].style.display = 'inline';"
        onmouseover="this.style.cursor='pointer';"
-       onmouseout="this.style.cursor='default';"><rect
+       onmouseout="this.style.cursor='default';"
+       sodipodi:insensitive="true"><rect
          style="fill:#f9f9f9;fill-opacity:0.75;stroke:#000000;stroke-width:0.599197;stroke-linecap:round;stroke-dasharray:none"
          id="rect150-8"
          width="21.610001"
@@ -2662,4 +2670,157 @@
            id="tspan151-2"
            style="font-size:4.46326px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
            x="200.4626"
-           y="180.41217">Prev</tspan></text></g></g></svg>
+           y="180.41217">Prev</tspan></text></g><g
+       id="g253"
+       inkscape:label="Button - Edit"
+       transform="translate(-191.21503,-19.478971)"
+       onclick="window.ThibaultEditor.toggleEditMode(this.querySelector('rect'))"
+       onmouseover="this.style.cursor='pointer';"
+       onmouseout="this.style.cursor='default';"
+       onload=""
+       sodipodi:insensitive="true"><rect
+         style="fill:#f9f9f9;fill-opacity:0.75;stroke:#000000;stroke-width:0.599197;stroke-linecap:round;stroke-dasharray:none"
+         id="rect252"
+         width="21.610001"
+         height="7.036829"
+         x="194.75719"
+         y="175.29958"
+         inkscape:label="Button"
+         onclick=""
+         onmouseout=""
+         onmouseover="" /><text
+         xml:space="preserve"
+         style="font-size:4.46326px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:0.75;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         x="200.4626"
+         y="180.41217"
+         id="text255"
+         inkscape:label="Label"><tspan
+           sodipodi:role="line"
+           id="tspan255"
+           style="font-size:4.46326px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           x="200.4626"
+           y="180.41217">Edit</tspan></text></g><text
+       xml:space="preserve"
+       style="font-size:3.175px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:#000000;fill-opacity:0.75;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="3.7502785"
+       y="173.61925"
+       id="text253"
+       inkscape:label="coord_output_wrapper"
+       sodipodi:insensitive="true"><tspan
+         sodipodi:role="line"
+         id="coord_output"
+         style="font-size:3.175px;display:none;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+         x="3.7502785"
+         y="173.61925"
+         sodipodi:insensitive="true">Selection: None | Pos: (0,0) | Rot: 0°</tspan></text></g><script
+     id="script254"
+     type="text/javascript">
+function init(evt) {
+	const ThibaultEditor = {
+		// 1. App State
+		isEditMode: false,
+		selectedGroup: null,
+		activeAction: null, // 'drag' or 'rotate'
+		svg: null,
+		
+		
+		// 2. Transformation State (The coordinates you wanted to move)
+		transformState: {
+			x: 0,
+			y: 0,
+			rot: 0,
+			offset: { x: 0, y: 0 }
+		},
+
+		// 3. UI Toggle
+		toggleEditMode: function(editBtn) {
+			this.isEditMode = !this.isEditMode;
+			label = document.getElementById('coord_output');
+			
+			if (this.isEditMode) {
+				editBtn.style.fill = '#ea28f0'; 
+				label.style.display = 'inline';
+			} else {
+				editBtn.style.fill = '#f9f9f9'; 
+				
+				this.selectedGroup = null;
+				label.style.display = 'none';
+				label.textContent = &quot;Selection: None | Pos: (0,0) | Rot: 0°&quot;;
+			}
+		},
+	 
+
+		// 4. Mouse Logic
+		handleMouseDown: function(e){
+			// ONLY proceed if edit mode is active
+			if (!this.isEditMode) return;
+			
+			const path = e.target.closest('#Layer_Plays path');
+			const handle = e.target.closest('.rotate-handle');
+
+			if (path) {			
+				// Select new
+				this.selectedGroup = path;
+				
+				this.activeAction = 'drag';
+				const mouse = this.getMousePos(e);
+				// 1. Access the browser's already-parsed transform list for the element
+				const transformList = this.selectedGroup.transform.baseVal;
+
+				let matrix;
+				if (transformList.numberOfItems &gt; 0) {
+					// 2. Consolidate all transforms (translate, rotate, etc.) into one matrix
+					matrix = transformList.consolidate().matrix;
+				} else {
+					// 3. Fallback to an identity matrix if no transform exists
+					matrix = svg.createSVGMatrix(); 
+				}
+				this.transformState.x = matrix.e;
+				this.transformState.y = matrix.f;
+				this.transformState.offset.x = mouse.x - matrix.e;
+				this.transformState.offset.y = mouse.y - matrix.f;
+				
+			} else if (handle &amp;&amp; this.selectedGroup) {
+				this.activeAction = 'rotate';
+			}
+		},
+
+		handleMouseMove: function(e) {
+			if (!this.activeAction || !this.selectedGroup) return;
+			const mouse = this.getMousePos(e);
+
+			if (this.activeAction === 'drag') {
+				this.transformState.x = mouse.x - this.transformState.offset.x;
+				this.transformState.y = mouse.y - this.transformState.offset.y;
+			} else if (this.activeAction === 'rotate') {
+				let angle = Math.atan2(mouse.y - this.transformState.y, mouse.x - this.transformState.x) * (180 / Math.PI) + 90;
+				if (isSnapEnabled) angle = Math.round(angle / 15) * 15;
+				this.transformState.rot = angle;
+			}
+
+			this.selectedGroup.setAttribute('transform', `translate(${this.transformState.x}, ${this.transformState.y}) rotate(${this.transformState.rot})`);
+			const label = document.getElementById('coord_output');
+			label.textContent = &quot;Selection: &quot; + this.selectedGroup.getAttribute(&quot;inkscape:label&quot;) + 
+					&quot; | Pos: (&quot; + Math.round(this.transformState.x) + &quot;,&quot; + Math.round(this.transformState.y) + 
+					&quot;) | Rot: &quot; + Math.round(this.transformState.rot) + &quot;°&quot;;
+		},
+
+		handleMouseUp: function(e) {
+			this.activeAction = null;
+		},
+
+		getMousePos: function(evt) {
+			const CTM = this.svg.getScreenCTM();
+			return { x: (evt.clientX - CTM.e) / CTM.a, y: (evt.clientY - CTM.f) / CTM.d };
+		},
+	};
+
+    ThibaultEditor.svg = evt.target;
+	window.ThibaultEditor = ThibaultEditor;
+
+    // Global SVG listeners for dragging
+	ThibaultEditor.svg.addEventListener('mousedown', ThibaultEditor.handleMouseDown.bind(ThibaultEditor));
+    window.addEventListener('mousemove', ThibaultEditor.handleMouseMove.bind(ThibaultEditor));
+    window.addEventListener('mouseup', ThibaultEditor.handleMouseUp.bind(ThibaultEditor));
+};
+</script></svg>
