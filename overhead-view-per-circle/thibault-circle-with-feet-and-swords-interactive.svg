@@ -3678,6 +3678,7 @@ function init(evt) {
 			} else if (handle &amp;&amp; this.selectedGroup) {
 				this.activeAction = 'rotate';
 			}
+			this.updateTransformLabel();
 		},
 
 		handleMouseMove: function(e) {
@@ -3692,7 +3693,10 @@ function init(evt) {
 				if (isSnapEnabled) angle = Math.round(angle / 15) * 15;
 				this.transformState.rot = angle;
 			}
-
+			this.updateTransformLabel();
+		},
+		
+		updateTransformLabel: function() {
 			this.selectedGroup.setAttribute('transform', `translate(${this.transformState.x}, ${this.transformState.y}) rotate(${this.transformState.rot})`);
 			const label = document.getElementById('coord_output');
 			label.textContent = &quot;Selection: &quot; + this.selectedGroup.getAttribute(&quot;inkscape:label&quot;) + 
